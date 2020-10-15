@@ -1,0 +1,17 @@
+img{
+  width: 100%;
+
+}
+
+@media screen and (min-width: 600px) {
+  img{
+    width:50%;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  img{
+    width: calc(100%/3);
+  }
+}
